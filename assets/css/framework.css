@@ -1,0 +1,79 @@
+
+.background 
+{
+    
+    background: white;
+    color: #222222d4;
+}
+
+.container-custom
+{
+    max-width: 60%;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    will-change : transform
+}
+
+.long-section {
+    min-height: 100%;
+}
+
+.personal-img
+{
+    width: 30%;
+    float: left;
+    padding-right: 1rem;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.latters
+{
+    margin-right: 10px;
+    width: fit-content;
+    line-height: 0.1em;
+    display: block;
+    border-bottom: 1px solid #000; 
+}
+
+.latters h4
+{
+    background:#fff; 
+}
+
+.fixed-image
+{
+
+    filter: grayscale(100%);
+    background-position: 50%;
+    background-size: cover;
+    height: 100%;
+    mix-blend-mode: multiply;
+    opacity: .75;
+}
+
+.fixed_wrapper {
+
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.fixed_target {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -100vh;
+
+    bottom: -100vh;
+}
+
+.container-projects
+{
+    padding: 30%;
+}
